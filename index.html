@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Curriculum Vitae</title>
+  </head>
+  <body>
+      <!-- <h1>Hoja de Vida</h1> -->
+    <div class="up">
+    <img src="perfil.jpg" width="100" height="100" >
+      <p>Jordi Mairena</p>
+      <p> jordim95@hotmail.com</p>
+      <p> +50494775554</p>
+    </div>
+    <div class="container2" class="center">
+      <h3>Educacion</h3>
+      <hr>
+      <p> 1999-2002 &nbsp &nbsp &nbsp &nbsp &nbsp Kinder en Dowal School</p>
+      <p> 2002-2008 &nbsp &nbsp &nbsp &nbsp  Primaria en Dowal School</p>
+      <p> &nbsp&nbsp&nbsp2008-2013 &nbsp &nbsp &nbsp &nbsp  Secundaria en Dowal School</p>
+      <p> 2013-Actualidad &nbsp&nbsp&nbsp&nbspUniversidad en UNITEC</p>
+      <h3>Habilidades en Programacion</h3>
+      <hr>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="java_logo.png" width="40" height="40"  alt="">
+                <div class="caption">
+                  <p>Java</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png" width="40" height="40"  alt="">
+                <div class="caption">
+                  <p>C++</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="thumbnail">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/2000px-HTML5_logo_and_wordmark.svg.png" width="40" height="40"  alt="">
+                <div class="caption">
+                  <p>HTML</p>
+                </div>
+            </div>
+          </div>
+    </div>
+    <h3>Habilidades Personales</h3>
+    <hr>
+    <div class="progress">
+      <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:70%">Creatividad 70%
+        <span class="sr-only"></span>
+      </div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">Habilidades Sociales 80%
+        <span class="sr-only"></span>
+      </div>
+    </div>
+    <div class="progress">
+      <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:75%">Liderazgo 75%
+        <span class="sr-only"></span>
+      </div>
+    </div>
+    <h3>Redes Sociales</h3>
+    <hr>
+
+    <div>
+      <a href="https://www.facebook.com/jordimairena95" class="fa fa-facebook" > </a>
+      <a href="https://github.com/jordimairena" class="fa fa-github"></a>
+    </div>
+    <div id="counter">
+
+    </div>
+    </body>
+</html>
+<script type="text/javascript">
+var n = localStorage.getItem('on_load_counter');
+if (n === null) {
+    n = 0;
+}
+n++;
+
+localStorage.setItem("on_load_counter", n);
+document.getElementById('counter').innerHTML = "You have open this page " + n + " time(s).";
+</script>
